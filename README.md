@@ -21,14 +21,14 @@ when presented with the game over screen you are given your total score and an i
 
 some things that I might improved in the future are: 
 
-Using more dynamically updated html elements with javascript. I came to the realisation towards the end of the build that i could have reduced the amount of html and css used by setting up one main "page" with a core set of html elements and used javascript more to update those elements throughout out the quiz rather than use a "show/hide" technique to display each section of the quiz which kind of "bloats" out the size of the overall app. It was just a bit more intuitive for me to visualise each section of the quiz and make it work that way until i had to create the scores and dynamically update the page then penny dropped but was out of time by this stage.. 
+Using more dynamically updated html elements with javascript. I came to the realisation towards the end of the build that i could have reduced the amount of html and css used by setting up one main "page" with a core set of html elements and used javascript more to update those elements throughout the quiz rather than use a "show/hide" technique to display each section of the quiz which kind of bloats out the size of the overall app. It was just a bit more intuitive for me to visualise each section of the quiz and make it work that way until i had to create the scores and dynamically update the page then penny dropped but was out of time by this stage.. 
 
 
-also maybe adding a top 3 or top 5 High scores that checks your quiz scores each time with the current score list. If our score is greater than any of the current logged scores then show otherwise don't give an option to input initials and display message instead.
+also maybe adding a top 3 or a top 5 High scores that checks your quiz scores each time with the current score list. If your score is greater than any of the current logged/rendered scores then show otherwise don't give an option to input initials and display message instead.
 
 
 
-some better styling or a theme. I used a pretty generic kind of bootstrap looking layout just to get things working but it could become a more interesting style or theme and make a more fun "game-show" type environment to add some extra levels of fun..?.
+some better styling or a theme. I did a pretty generic kind of bootstrap looking layout just to get things working but it could become a more interesting style or theme and make a more fun "game-show" type environment to add some extra levels of fun..?.
 
 
 ## Technologies
