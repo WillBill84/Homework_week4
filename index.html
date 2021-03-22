@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Code Quiz</title>
+</head>
+<body>
+
+  <header>
+    <div class="scorelink"><a href="#">View Scores</a></div>
+    <div class="timer" style="display: none;">Time: <span id="timer-count">0</span></div>
+  </header>
+
+  <main>
+    <div class="quiz-wrap">
+      <!-- Quiz start section -->
+        <div class="quiz-start" style="display: block;">
+          <h1>Coding Quiz Challenge</h1>
+          <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score and time by 10 seconds!</p>
+          <span>Good Luck!</span>
+          <button id="start-quiz-button">Start Quiz</button>
+        </div>
+
+      <!-- Quiz questions section -->
+
+      <div class="quiz-questions" style="display: none;">
+
+        <h1 id="question-header"></h1>
+
+        <button class="answerButtons" id="btn-1"></button>
+        <button class="answerButtons" id="btn-2"></button>
+        <button class="answerButtons" id="btn-3"></button>
+        <button class="answerButtons" id="btn-4"></button>
+
+        <div id="answertextwrap">
+         <span id="answertext" style="opacity: 0;"></span>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- game over section -->
+    <div class="game-over" style="display: none;">
+        <h1>Game Over!</h1>
+        <div class="scorepanel">You scored<h1 id="scoreNumber">0</h1></div>
+        
+        <div class="initials-panel">
+        
+          <span>Please enter your initials to save your score.</span>
+
+          <div class="initial-form">
+          <input type="text" name="initials" id="initials" maxlength="3" placeholder="Enter your initials..." />
+          <button id="submit-button">Submit</button>
+        </div>
+
+        </div>
+        <!--
+        <button id="gameoverbtn" onclick="location.reload();">OK</button>
+        -->
+    </div>
+
+  <!--player scores section -->
+    <div class="playerscorepanel" style="display: none;">
+      <h1>Player Scores</h1>
+      <h2 class="scoremessage" style="display: none;">No scores have been set yet!</h2>
+      <div class="scorecontainer"> </div>
+      <button id="gameoverbtn" onclick="location.reload();">OK</button>
+      <button id="resetscorebtn">Reset Scores</button>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
